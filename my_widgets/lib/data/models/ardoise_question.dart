@@ -109,7 +109,6 @@ class ArdoiseQuestion {
         type.hashCode ^
         maked.hashCode;
   }
-
   toProduction(classe) {
     save(brouillon: false, classe: classe);
     delete(brouillon: true, classe: classe);
